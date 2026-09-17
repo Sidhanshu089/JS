@@ -25,7 +25,31 @@ let myobj = {
 }
 
 const myfunction = function(){
-    console.log("hello");
+    // console.log("hello");
     
 }
-console.log(typeof myfunction);
+// console.log(typeof myfunction);
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++
+//Stack(Primitive), Heap(Reference/Non-Primitive)
+
+let myyoutubname = "xyzgaming"
+// let anothername = myyoutubname
+let anothername = "abcgames"
+
+// console.log(anothername);
+// console.log(myyoutubname);
+
+let user1 = {
+    emaiid: "abc@gmail.com",
+    upi: "okasbi"
+}
+
+let user2 = user1
+user2.emaiid = "sidhanshu@mail.com"
+console.log(user1.emaiid);
+console.log(user2.emaiid);
+
+

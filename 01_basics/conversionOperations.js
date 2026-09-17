@@ -21,9 +21,40 @@
 // "" --> false
 // "sid" --> true
 
-let somenumber = 56
-let stringNumber = String(somenumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// let somenumber = 56
+// let stringNumber = String(somenumber)
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+// ****************Opertions***************
+let value = 4
+let negvalue = -value
+// console.log(negvalue);
+// console.table([2+2, 2-2, 2*2, 2**2, 2/2, 2%5])
+let str1 = "hello"
+let str2 = " world"
+// console.log(str1 + str2);
+
+// console.log("1"+2+2); // --> 122
+// console.log(1+2+"2"); // --> 32
+// this is due to ECMAscript rules/guidelines
+
+console.log(true);
+
+let num1, num2, num3
+// num1 = num2 = num3 // bad practice
+
+let gamecounter = 100
+gamecounter++
+// console.log(gamecounter);
+
+
+let x = 3
+const y = x++
+console.log(`x:${x}, y:${y}`)
+
+let a = 3
+const b = ++a
+console.log(`a:${a}, b:${b}`);
 
 
